@@ -1,0 +1,86 @@
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   text-transform: capitalize;
+}
+body{
+   font-family: 'Cairo', sans-serif;
+}
+ul{
+   list-style: none;
+}
+a{
+   text-decoration: none;
+}
+.container{
+   padding: 0 15px;
+   margin: 0 auto;
+}
+/* small screens */
+@media (min-width: 768px) {
+   .container{
+      width: 740px;
+   }
+}
+/* medium screens */
+@media (min-width: 992px) {
+   .container{
+      width: 960px;
+   }
+}
+/* large screens */
+@media (min-width: 1200px) {
+   .container{
+      width: 1170px;
+   }
+}
+.toolpar .container .content{
+   color: black;
+   margin: 20px 0 20px 0;
+}
+.toolpar .container a{
+   text-decoration: none;
+   color: black;
+}
+.parent{
+   min-width: 300px;
+}
+.parent .price{
+   color: var(--red-col);
+}
+.parent button:not(.form-btn){
+   border: none;
+   width: 120px;
+   padding: 5px 8px;
+   background-color: white;
+   color: #777;
+   border-radius: 30%;
+   transition: 0.3s;
+   font-size: 20px;
+}
+.parent button:hover{
+   background-color: var(--red-col);
+   color: white;
+
+}
+
+i.fa-duotone{
+   color: #777;
+}
+.p-price{
+   color: var(--red-col);
+}
+
+.form-btn{
+   transition: 0.3s;
+   background-color: #000000;
+   border: none;
+   width: 120px;
+   padding: 5px;
+   border-radius: 5px;
+   margin: 0 auto;
+}
+.form-btn:hover{
+   background-color: var(--red-col);
+}
